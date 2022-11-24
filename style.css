@@ -1,8 +1,8 @@
-*, *::before, *::after{
+/* *, *::before, *::after{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-}
+} */
 
 body{
     padding: 20px;
@@ -51,21 +51,21 @@ hr{
     border-color: brown;
 }
 
-.menu-item p{
+.item p{
     display: inline-block;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
     font-size: 18px;
 }
 
-.menu_flavor{
+.flavor, .dessert{
     text-align: left;
-    width: 100%;
+    width: 75%;
 }
 
 .price{
     text-align: right;
-    width: 100%;
+    width: 25%;
 }
 
 .bottom-line{
