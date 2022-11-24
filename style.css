@@ -8,6 +8,7 @@ body{
     padding: 20px;
     background-image: url('background-img.jfif');
     font-family: Arial, Helvetica, sans-serif;
+    background-attachment: fixed;
 }
 
 .menu{
